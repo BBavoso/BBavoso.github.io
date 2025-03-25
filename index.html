@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Developer Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-content">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#audio-programming" class="nav-link">Audio Programming</a>
+        <a href="#sound-design" class="nav-link">Sound Design</a>
+        <a href="#tools" class="nav-link">Tools</a>
+        <a href="#code" class="nav-link">Code</a>
+      </div>
+    </nav>
+
+    <main id="app">
+      <section id="home" class="section active">
+        <div class="video-container">
+          <iframe 
+            width="100%" 
+            height="600" 
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+            title="Portfolio Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+
+      <section id="audio-programming" class="section">
+        <h2>Audio Programming Projects</h2>
+        <div class="project-grid">
+          <!-- Example projects, replace with your own -->
+          <div class="project-card">
+            <h3>VST Plugin</h3>
+            <p>A virtual synthesizer built with JUCE framework</p>
+          </div>
+          <div class="project-card">
+            <h3>Web Audio API Demo</h3>
+            <p>Interactive audio visualization using Web Audio API</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="sound-design" class="section">
+        <h2>Sound Design</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Game Sound Effects</h3>
+            <p>Custom SFX library for indie game</p>
+          </div>
+          <div class="project-card">
+            <h3>Ambient Soundscapes</h3>
+            <p>Environmental audio design for interactive installations</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tools" class="section">
+        <h2>Tools</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Audio Batch Processor</h3>
+            <p>Tool for bulk audio file processing</p>
+          </div>
+          <div class="project-card">
+            <h3>MIDI Controller</h3>
+            <p>Custom MIDI mapping application</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="code" class="section">
+        <h2>Code Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>GitHub Repositories</h3>
+            <p>Collection of open-source audio tools</p>
+          </div>
+          <div class="project-card">
+            <h3>Code Snippets</h3>
+            <p>Useful audio programming utilities</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
