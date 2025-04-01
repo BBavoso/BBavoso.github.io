@@ -30,17 +30,28 @@ const projectData = {
   },
   "fandom-wiki-race": {
     title: "FandomWikiRace",
-    fullDesc: "",
-    technologies: [],
-    features: [],
-    demoLink: "",
+    fullDesc:
+      "This fun project allows you to test your knowledge in an exciting game of skill. You must navigate between pages of knowledge of your favorite games and get from one page to another, while only clicking on other links that are contained within the page.",
+    technologies: ["Python", "Flask", "React", "HTML", "CSS"],
+    features: ["Graph Database", "Web Scraping"],
+    demoLink: "https://devpost.com/software/fandomwikirace",
   },
   "ocean-microplastics": {
     title: "Ocean Microplastics Mania",
-    fullDesc: "",
-    technologies: [],
-    features: [],
-    demoLink: "",
+    fullDesc:
+      "This project brings awareness to the scale and severity of plastic pollution, highlighting its impact to ecosystems, individuals, and the world at large. We display datasets sourced from NOAA about microplastic distribution, and even built a fun little game to illustrate the problem of microplastic pollution (based on the same dataset!).",
+    technologies: [
+      "Typescript",
+      "NextJs",
+      "React",
+      "HTML",
+      "CSS",
+      "Unity",
+      "C#",
+      "WebGL",
+    ],
+    features: ["Interactive Game", "Data Visualization"],
+    demoLink: "https://devpost.com/software/ocean-pollution-popper",
   },
 };
 
