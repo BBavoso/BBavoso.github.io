@@ -7,6 +7,41 @@ const projectData = {
     features: ["Room Ambience", "Footsteps", "Dynamic Music"],
     demoLink: "",
   },
+  "harvard-burger": {
+    title: "Harvard Burger",
+    fullDesc:
+      "You interact using only your voice. The app automatically detects when you start and stop talking, uses AI to transcribe what you say, figures out the food items (with modifications) you want to order, and adds them to your current order. It even handles details like size and flavor preferences. The AI then generates text-to-speech audio, which is played back to confirm your order in a humorous, engaging way. There is absolutely zero set-up or management necessary, as the program will completely ignore all background noises and conversation. Even then, it will still take your order with staggering precision.",
+    technologies: [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Python",
+      "Flask",
+      "OpenAI",
+    ],
+    features: [
+      "Full-stack application",
+      "User authentication",
+      "Dynamic burger creation",
+      "Voice Recognition",
+      "AI-powered burger recommendations",
+    ],
+    demoLink: "https://devpost.com/software/harvard-burger",
+  },
+  "fandom-wiki-race": {
+    title: "FandomWikiRace",
+    fullDesc: "",
+    technologies: [],
+    features: [],
+    demoLink: "",
+  },
+  "ocean-microplastics": {
+    title: "Ocean Microplastics Mania",
+    fullDesc: "",
+    technologies: [],
+    features: [],
+    demoLink: "",
+  },
 };
 
 // Navigation handling
