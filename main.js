@@ -7,6 +7,17 @@ const projectData = {
     features: ["Room Ambience", "Footsteps", "Dynamic Music"],
     demoLink: "",
   },
+  "oasis-blitz": {
+    title: "Oasis Blitz",
+    fullDesc: "",
+    technologies: ["Unity", "C#", "Fmod"],
+    features: [
+      "Movement Sounds",
+      "Enemy Sounds",
+      "Dynamic Drill Implementation",
+    ],
+    demoLink: "https://store.steampowered.com/app/2966980/Oasis_Blitz/",
+  },
   "harvard-burger": {
     title: "Harvard Burger",
     fullDesc:
